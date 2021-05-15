@@ -1,0 +1,79 @@
+//const sessionObj = await fetch(`${API_URL}= ${day}`);
+    //console.log(sessionObj);
+    //const res = await sessionObj.json();
+    //console.log(res);
+    //if (!sessionObj.ok) throw new Error(`Error ocurred(${sessionObj.status})`);
+
+
+      //console.log(day);
+       //console.log(session, day);
+
+//console.log("Coming from request method ", body);
+       //Final sendNotification call to send Email
+//NodeServer.sendNotification(state.VaccineAppointments);
+
+//Testing sendNotification method
+//Mail.sendNotification("Focus on studying , dont waste your time");
+
+
+
+// export const sendNotification = function (data) {
+//   Email.send({
+//     Host: "smtp.gmail.com",
+//     Username: "inferno.rdkar@gmail.com",
+//     Password: "Flour18!",
+//     To: "sakshi.rdkar@gmail.com",
+//     From: "inferno.rdkar@gmail.com",
+//     Subject: "Sending Email using javascript",
+//     Body: data,
+//     // Attachments: [
+//     //   {
+//     //     name: "File_Name_with_Extension",
+//     //     path: "Full Path of the file"
+//     //   }]
+//   }).then(function (message) {
+//     alert("Mail has been sent successfully");
+//   });
+// };
+
+//const { google } = require("googleapis");
+
+//const OAuth2 = google.auth.OAuth2;
+
+// const oauth2Client = new OAuth2(
+//   "893875976743-rgbaak542i2q65g39eqf9f7r7iggkir6.apps.googleusercontent.com", // ClientID
+//   "EOlzK5nYG8O7gAYtEkQauNGY", // Client Secret
+//   "https://developers.google.com/oauthplayground" // Redirect URL
+// );
+
+// oauth2Client.setCredentials({
+//   refresh_token:
+//     "1//04BAXgDCZaVV5CgYIARAAGAQSNwF-L9Ir97YXQYxewuroix9uAtURIKe7tiWhcYo_pK",
+// });
+// const accessToken = oauth2Client.getAccessToken();
+
+// type: "OAuth2",
+
+// clientId:
+    //   "893875976743-rgbaak542i2q65g39eqf9f7r7iggkir6.apps.googleusercontent.com",
+    // clientSecret: "EOlzK5nYG8O7gAYtEkQauNGY",
+    // refreshToken:
+    //   "1//04BAXgDCZaVV5CgYIARAAGAQSNwF-L9Ir97YXQYxewuroix9uAtURIKe7tiWhcYo_pK",
+    // accessToken: accessToken,
+    // tls: {
+    //   rejectUnauthorized: false,
+    // },
+
+    // text: `Please book slots at available centres .. ${data.foreach((elem) => {
+  //   return `${elem.name} has capacity ${elem.capacity}`;
+  // })} `,
+
+     //const data = await help();
+
+     //console.log(
+    //   "Reporting control from sendNotification",
+    //   controller.control,
+    //   controller.data
+    // );
+
+    console.log("From fetch", session, day);
